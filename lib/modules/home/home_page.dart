@@ -91,7 +91,9 @@ class _HomePageState extends State<HomePage> {
                     Icons.add_box_outlined,
                     color: AppColors.background,
                   ),
-                  onPressed: () {},
+                  onPressed: () {
+                    Navigator.pushNamed(context, "/barcode_scanner");
+                  },
                 ),
               ),
             ),
